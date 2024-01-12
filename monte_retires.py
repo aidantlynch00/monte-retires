@@ -23,6 +23,11 @@ import monaco as mc
 num_simulations = 1
 seed = 0
 
+# values found by fitting the t distribution to the daily return percentages
+sp500_df    =  0.191988016296284
+sp500_loc   = 14.185043067977496
+sp500_scale = 12.568606161494754
+
 def monaco_preprocess():
     pass
 
